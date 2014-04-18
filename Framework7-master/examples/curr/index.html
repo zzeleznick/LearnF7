@@ -28,23 +28,140 @@
     </div>
     <!-- Views, and they are tabs-->
     <!-- We need to set "toolbar-through" class on it to keep space for our tab bar-->
+
+
     <div class="views tabs toolbar-through">
       <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
-      <div id="view-1" class="view view-main tab active">
+
+
+
+
+
+      <div id="view-1" class="view tab">
+
+            <div class="navbar">
+              <div class="navbar-inner">
+               
+                <div class="center sliding"> About<!--a href="#" class="link icon-only"> Blab </a--></div>
+              
+                <div class="right">
+                <a href="#" data-panel="right" class="link open-panel icon-only"><i class="icon icon-bars-blue"></i></a>
+                </div>
+              </div>
+            </div>
+
         <!-- Pages-->
-        <div class="pages">
+        <div class="pages navbar-through">
           <!-- Page, data-page contains page name-->
           <div data-page="index-1" class="page">
+
+
             <!-- Scrollable page content-->
             <div class="page-content">
-              <div class="content-block-title">Welcome</div>
-              <div class="content-block">
-                <p>This is an example of tab bar application layout. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
-                <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
-                <p>And of course, your favorite panels are still here: <a href="#" class="open-panel">left</a> and  <a href="#" data-panel="right" class="open-panel">right</a></p>
-                <p>Icons and their labels in tab bar below are just for example and don't related to their content.</p>
+              <!--div class="content-block-title center" style="font-size:38px">Welcome</div-->
 
-              </div>
+
+
+
+              <div class="content-block">
+           
+              <!--a href="#" class="open-panel">left</a> and  <a href="#" data-panel="right" class="open-panel">right</a-->
+
+
+
+<!--div class="content-block-title" style="font-size:28px"> What is Currency Hero?
+</div-->
+ <div class="content-block">
+
+       <p>
+
+Currency Hero is a peer to peer currency exchange platform specifically designed for overseas travelers. It is easy to use and there are only three steps to complete the exchange.
+  </p>
+
+
+
+ <!--div class="ks-grid">
+
+     <div class="content-block">
+<h2> LOW COST </h2>
+Save with best currency exchange rates.
+Exchange directly with fellow travelers. Cut out big banks and mediators to get the best rates!
+  </div>
+
+       <div class="content-block">
+<h2> EASY </h2>
+ Easy and fast process to get money
+1-click and your "HERO" brings you the local currency you need. No lines; no paper forms to fill out.
+  </div>
+     <div class="content-block">  
+<h2> SAFE </h2>
+ Safe service with verified peers
+Only verified users can be a "Hero". Currency Hero provides the best service for a safe foreign currency exchange experience.
+  </div>
+    
+  
+</div-->   <!--end grid-->
+
+
+
+
+          <div class="list-block">
+                <ul>
+                  <li><a href="team.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">About Us</div>
+                        </div>
+                      </div></a></li>
+
+                  <li><a href="" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Our Approach</div>
+                        </div>
+                      </div></a></li>
+
+                  <li><a href="about2.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">The Benefits</div>
+                        </div>
+                      </div></a></li>
+
+
+                  <li><a href="how.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Walkthrough</div> <!--FAQs-->
+                        </div>
+                      </div></a></li>
+
+                        <li><a href="" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Security & Safety</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+           </div>
+
+
+
+
+</div> <!--end centered content-->
+
+   </div>
+
+                  <div class="content-block" style="color:white;">
+             
+                        <div class="ksgrid">
+
+               <a href="exchange2.html"> <input type="submit" value="Begin" style="padding-bottom:40px;" class="push_button red center"> <br> </a>
+ 
+                          </div>
+                          </div>
+
+           
             </div>
           </div>
         </div>
@@ -89,21 +206,98 @@
           </div>
         </div>
       </div>
-      <div id="view-3" class="view tab">
-        <div class="pages">
+
+<div id="view-3" class="view tab">
+
+        <!--div class="pages">
           <div data-page="index-3" class="page">
             <div class="page-content">
               <div class="content-block-title">Another plain static view</div>
               <div class="content-block">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel commodo massa, eu adipiscing mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ultricies dictum neque, non varius tortor fermentum at. Curabitur auctor cursus imperdiet. Nam molestie nisi nec est lacinia volutpat in a purus. Maecenas consectetur condimentum viverra. Donec ultricies nec sem vel condimentum. Phasellus eu tincidunt enim, sit amet convallis orci. Vestibulum quis fringilla dolor.    </p>
-                <p>Mauris commodo lacus at nisl lacinia, nec facilisis erat rhoncus. Sed eget pharetra nunc. Aenean vitae vehicula massa, sed sagittis ante. Quisque luctus nec velit dictum convallis. Nulla facilisi. Ut sed erat nisi. Donec non dolor massa. Mauris malesuada dolor velit, in suscipit leo consectetur vitae. Duis tempus ligula non eros pretium condimentum. Cras sed dolor odio.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel commodo massa, eu adipiscing mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ultricies dictum neque, non varius tortor fermentum at. Curabitur auctor cursus imperdiet. Nam molestie nisi nec est lacinia volutpat in a purus. Maecenas consectetur condimentum viverra. Donec ultricies nec sem vel condimentum. Phasellus eu tincidunt enim, sit amet convallis orci. Vestibulum quis fringilla dolor.    </p>
+                  
+                  <p> People online </p-->
+
+    <div class="navbar">
+  <div class="navbar-inner">
+    <div class="left notify"><a href="index.html"><span> &nbsp; Connect</span></a></div>
+    <div class="center sliding">Online Users</div>
+    </div>
+</div>              
+
+<div class="pages navbar-through">
+  <div data-page="pull-to-refresh" class="page">
+    <div class="page-content pull-to-refresh-content">
+      <div class="pull-to-refresh-layer">
+        <div class="preloader"></div>
+        <div class="pull-to-refresh-arrow"></div>
+      </div>
+      <div class="list-block media-list">
+
+<div class="messages-date">Just Now</div>
+
+  <div id="insertmon">
+  </div>
+         <div class="messages-date">Wednesday, April 13, <span>18:20</span></div>
+<ul>
+      
+          <li class="item-content">
+            <div class="item-media"><img src="img/man.jpg" width="44"/></div>
+            <div class="item-inner">
+              <div class="item-title-row">
+                <div class="item-title">Psy</div> <span> <B> Elite User</B></span>
               </div>
+              <div class="item-subtitle">120 Eu --> $140 US</div>
             </div>
-          </div>
+          </li>
+          </ul>
+          <ul>
+          <li class="item-content">
+            <div class="item-media"> <a href="messages.html"><img src="img/girl.jpg" width="44"/></a></div>
+            <div class="item-inner">
+              <div class="item-title-row">
+                <div class="item-title">Jessie James</div> <span>  <a href="messages.html"><i class="icon icon-form-comment"></i> </a></span>
+              </div>
+              <div class="item-subtitle">200 Eu --> $160 US</div>
+            </div>
+          </li>
+          </ul>
+          <ul>
+          <li class="item-content">
+            <div class="item-media"><img src="img/man2.jpg" width="44"/></div>
+            <div class="item-inner">
+              <div class="item-title-row">
+                <div class="item-title">John McQueen</div> <span> <B> Elite User</B></span>
+              </div>
+              <div class="item-subtitle">$100 US --> $160 Eu</div>
+            </div>
+          </li>
+        </ul>
+        <div class="list-block-label">
+          <p>Just pull page down to let the magic happen.<br>Note that pull-to-refresh feature is optimised for touch and native iOS scrolling so it may not work on desktop browser.</p>
+
         </div>
       </div>
-      <div id="view-4" class="view tab">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+              </div>
+
+              <!--/div>
+            </div>
+           
+          
+    
+      </div-->
+
+
+
+
+      <div id="view-4" class="view tab ">
         <div class="pages navbar-fixed">
           <div data-page="index-4" class="page">
             <div class="navbar">
@@ -234,15 +428,14 @@
 
            
    <div id="view-5" class="view tab">
-        <div class="pages navbar-through">
-
- <!--div class="navbar">
+        <!-- It appears we need an instance of the navbar to make with view with navigation, let's add Top Navbar-->
+        <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding"></div>
+            <div class="center sliding">Second View</div>
           </div>
- </div-->
+        </div>
         <!--HOW DO YOU FIX NAVBAR-->
-
+        <div class="pages navbar-through">
           <div data-page="index-5" class="full">
             <div class="page-content">
               <div class="content-block-title big white">Currency Hero</div>
@@ -263,30 +456,82 @@
                 </div>
 
                 </div>
-           
+
+
 
           
              
               </div>
             </div>
           </div>
-        </div>
+  
+            </div>
       </div>
 
 
+  <div id="view-6" class="view tab view-main tab active">
+      
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center sliding"> Currency Hero</div>
+          </div>
+        </div>
+        <div class="pages navbar-through">
+          <div data-page="redirect" class="page">
+            <div class="page-content full">
+  
+    <br>
+                 <div class="content-block">
+               <h1 class="boost"> <!--The Best Way to Exchange Foreign Currency--> 
+                      Exchange Foreign Currency
+               </h1>
+     </div>
+            
+              
+
+          <div class="content-block" style="text-align: center;">
+               
+                                  <a href="exchange2.html" class="item-link push_button red center"> Begin </a>
+                <!--a href="#" class="push_button blue">Push the button</a-->
+                </div>
+
+
+   
+              </div>
+            </div>
+          </div>
+        </div>
+   
 
 
 
+
+
+
+
+
+
+     
 
 
 
       <!-- Bottom Tabbar-->
       <div class="toolbar tabbar tabbar-labels">
-        <div class="toolbar-inner"><a href="#view-1" class="tab-link active"><i class="icon tabbar-demo-icon-1"></i><span class="tabbar-label">Information</span></a><a href="#view-2" class="tab-link"><i class="icon tabbar-demo-icon-2"></i><span class="tabbar-label">Inbox</span></a><a href="#view-3" class="tab-link"><i class="icon tabbar-demo-icon-3"><span class="badge badge-red">4</span></i><span class="tabbar-label">Upload</span></a><a href="#view-4" class="tab-link"><i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">Photos</span></a>
+        <div class="toolbar-inner"><a href="#view-1" class="tab-link"><i class="icon tabbar-demo-icon-1"></i><span class="tabbar-label">Information</span></a>
+
+        <a href="#view-6" class="tab-link active"><i class="icon tabbar-demo-icon-2"></i><span class="tabbar-label">Welcome</span></a>
+
+        <a href="#view-3" class="tab-link"><i class="icon tabbar-demo-icon-3"><span class="badge badge-red">3</span></i><span class="tabbar-label">Online</span></a>
+
+        <!--a href="#view-4" class="tab-link"><i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">Photos</span></a-->
 
 
-        <a href="#view-5" class="tab-link"><i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">Tests</span></a></div>
+        <!--a href="#view-5" class="tab-link"><i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">Tests</span></a-->
+        <!--a href="#view-6" class="tab-link"><i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">Tests2</span></a-->
+        </div>
       </div>
+
+
     </div>
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="../../dist/js/framework7.min.js"></script>
